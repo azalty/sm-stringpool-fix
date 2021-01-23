@@ -1,5 +1,5 @@
 # sm-stringpool-fix
-Fixes CUtlRBTree overflow! crashes.
+Fixes 'CUtlRBTree overflow!' crashes.
 
 Fix by [ekshon](https://forums.alliedmods.net/member.php?u=305634) ([Alliedmodders thread](https://forums.alliedmods.net/showthread.php?t=328421))
 
