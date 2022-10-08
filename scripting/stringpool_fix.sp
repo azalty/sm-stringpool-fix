@@ -11,5 +11,6 @@ public Plugin myinfo =
 
 public void OnEntityCreated(int entity, const char[] classname)
 {
-    SetEntProp(entity, Prop_Data, "m_bForcePurgeFixedupStrings", true);
+    if( HasEntProp(entity, Prop_Data, "m_bForcePurgeFixedupStrings") )
+        SetEntProp(entity, Prop_Data, "m_bForcePurgeFixedupStrings", true);
 }
